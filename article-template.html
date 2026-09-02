@@ -1,0 +1,153 @@
+<!doctype html>
+<!--
+  模板说明：
+  - 复制本文件，按需修改 <head> 的 title/description/og 与 <main> 内的 <article>。
+  - 保持 article 上的 data-key 与 data-next/data-prev 属性，方便内链工具批量管理。
+  - 双语段落用 .lang-block 包裹，内部 .zh 放中文，.en 放英文。
+  - .spoiler-badge 可用于标注“流程攻略 / Boss / 收集”等内容类型。
+  - 删除/替换 .ad-slot 占位即可换成真实 AdSense 代码。
+-->
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>文章标题占位｜Islets 攻略站</title>
+  <meta name="description" content="文章描述占位。请每篇独立写 60–120 字的中文描述。">
+  <meta name="keywords" content="Islets, 攻略, 占位">
+  <meta name="author" content="gamenote.cc / islets 子站">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://islets.gamenote.cc/占位文件.html">
+  <link rel="alternate" hreflang="zh-CN" href="https://islets.gamenote.cc/占位文件.html">
+  <link rel="alternate" hreflang="en" href="https://islets.gamenote.cc/占位文件.html">
+  <link rel="alternate" hreflang="x-default" href="https://islets.gamenote.cc/占位文件.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="文章标题占位｜Islets 攻略站">
+  <meta property="og:description" content="文章描述占位。">
+  <meta property="og:url" content="https://islets.gamenote.cc/占位文件.html">
+  <meta property="og:site_name" content="ISLETS 攻略站">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="home-header">
+  <nav class="home-nav">
+    <a class="home-brand" href="index.html"><span class="mark">✦</span><span>GAME<span class="coral">NOTE</span>.CC<small>ISLETS GUIDE</small></span></a>
+    <div class="home-links"><a href="index.html"><span class="nav-zh">首页</span><span class="nav-en">Home</span></a><a href="walkthrough.html"><span class="nav-zh">主线</span><span class="nav-en">Walkthrough</span></a><a href="maps.html"><span class="nav-zh">地图</span><span class="nav-en">Maps</span></a><a href="boss-list.html"><span class="nav-zh">首领</span><span class="nav-en">Bosses</span></a><a href="abilities.html"><span class="nav-zh">能力</span><span class="nav-en">Abilities</span></a><a href="upgrade-list.html"><span class="nav-zh">收集</span><span class="nav-en">Collect</span></a><a href="beginner.html"><span class="nav-zh">新手</span><span class="nav-en">Beginner</span></a></div><div class="home-actions"><a class="home-search" href="index.html#search" aria-label="搜索">⌕</a><button class="home-lang" id="lang" aria-label="Switch language">中文</button></div>
+  </nav>
+</header>
+
+  <div class="wrap">
+    <nav class="breadcrumb" aria-label="面包屑">
+      <a href="index.html">首页</a>
+      <span class="sep">›</span>
+      <span>本篇分类</span>
+      <span class="sep">›</span>
+      <span>本页标题</span>
+    </nav>
+  </div>
+
+  <section class="hero">
+    <div class="wrap">
+      <div class="kicker">ISLETS · TEMPLATE</div>
+      <h1>文章标题占位</h1>
+      <p class="lead">一句话摘要。中文放这里，控制在 30 字以内。</p>
+      <div class="meta-row">
+        <span class="spoiler-badge light">流程攻略</span>
+        <span class="dot"></span>
+        <span>最后校验：2026-09-01</span>
+        <span class="dot"></span>
+        <span>阅读约 X 分钟</span>
+        <span class="dot"></span>
+        <span>作者：站点编辑</span>
+      </div>
+    </div>
+  </section>
+
+  <main class="article wrap">
+    <article data-key="template" data-prev="beginner.html" data-next="faq.html">
+      <div class="lang-block">
+        <div class="zh">
+          <h2>示例章节</h2>
+          <p>这是中文正文示例。把段落写在 .zh 块内。统一使用 <code>note</code> / <code>warn</code> / <code>steps</code> / <code>cards</code> / <code>controls-table</code> 等预设样式。</p>
+          <aside class="note"><b>提示：</b>把关键背景或重要操作说明放进蓝色 note 框。</aside>
+          <h2>步骤卡</h2>
+          <div class="steps">
+            <article class="step"><b>STEP 01</b><h3>步骤标题</h3><p>步骤说明。保持一行到三行，重点突出。</p></article>
+            <article class="step"><b>STEP 02</b><h3>步骤标题</h3><p>步骤说明。</p></article>
+          </div>
+          <h2>数据卡</h2>
+          <div class="cards">
+            <div class="card"><div class="label">系统</div><div class="value">Windows 7+</div><div class="hint">Steam 最低配置</div></div>
+            <div class="card"><div class="label">容量</div><div class="value">1 GB</div><div class="hint">推荐预留 2 GB</div></div>
+          </div>
+        </div>
+        <div class="en">
+          <h2>Example section</h2>
+          <p>This is the English body. Keep the structure parallel to the Chinese block so toggling language doesn't shift the layout.</p>
+          <aside class="note"><b>Tip:</b> Use the blue note box for important context or actions.</aside>
+          <h2>Step cards</h2>
+          <div class="steps">
+            <article class="step"><b>STEP 01</b><h3>Step title</h3><p>One to three lines. Highlight the actionable part.</p></article>
+            <article class="step"><b>STEP 02</b><h3>Step title</h3><p>Step description.</p></article>
+          </div>
+          <h2>Data cards</h2>
+          <div class="cards">
+            <div class="card"><div class="label">OS</div><div class="value">Windows 7+</div><div class="hint">Steam minimum</div></div>
+            <div class="card"><div class="label">Storage</div><div class="value">1 GB</div><div class="hint">Reserve 2 GB recommended</div></div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="ad-slot" aria-label="广告预留位"><strong>广告位 · 文章内信息流</strong><span>GOOGLE ADSENSE IN-FEED</span></aside>
+
+      <p class="source">
+        <span class="lang-block"><span class="zh">资料校验：</span><span class="en">References checked: </span></span>
+        <a href="https://en.wikipedia.org/wiki/Islets_(video_game)" target="_blank" rel="noopener">Wikipedia</a> ·
+        <a href="https://store.steampowered.com/app/1669420/Islets/" target="_blank" rel="noopener">Steam</a> ·
+        <a href="https://truesteamachievements.com/game/Islets/achievements" target="_blank" rel="noopener">TrueSteamAchievements</a>
+      </p>
+
+      <nav class="pager" aria-label="上一篇 / 下一篇">
+        <a class="prev" href="beginner.html"><span class="arrow">← 上一篇</span><span>新手开局与探索指南</span></a>
+        <a class="next" href="faq.html"><span class="arrow">下一篇 →</span><span>新手常见问题 FAQ</span></a>
+      </nav>
+    </article>
+  </main>
+
+  <button class="to-top" id="toTop" aria-label="返回顶部">↑</button>
+
+  <footer class="site">
+    <div class="wrap">
+      <div><b>ISLETS 攻略站</b>　连接岛屿，也连接每一次好奇心。</div>
+      <div>游戏由 Kyle Thompson 开发 · Armor Games Studios 发行</div>
+    </div>
+  </footer>
+
+  <script>
+    /* 双语切换 + 返回顶部 · 复制到所有新页面 */
+    (function(){
+      const b=document.body, btn=document.querySelector('#lang');
+      const top=document.querySelector('#toTop');
+      let l=localStorage.getItem('islets-language')||(navigator.language.toLowerCase().startsWith('zh')?'zh':'en');
+      function set(x){
+        l=x;
+        b.classList.toggle('english', x==='en');
+        document.documentElement.lang=x==='en'?'en':'zh-CN';
+        btn.textContent=x==='en'?'EN':'中文';
+        localStorage.setItem('islets-language', x);
+      }
+      set(l);
+      btn.addEventListener('click', ()=>set(l==='zh'?'en':'zh'));
+
+      if(top){
+        window.addEventListener('scroll', ()=>{
+          top.classList.toggle('show', window.scrollY>400);
+        }, {passive:true});
+        top.addEventListener('click', ()=>window.scrollTo({top:0,behavior:'smooth'}));
+      }
+    })();
+  </script>
+<script src="assets/navigation.js"></script></body>
+</html>
+
+
