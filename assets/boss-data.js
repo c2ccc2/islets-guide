@@ -15,7 +15,7 @@
     boss('grapplebot','抓抓机器人','GrappleBot','airship','天空之城西南空域','Southwest of Sky City','开放前往伊斯莱特的航线','Access to Eastwright Island','Coming to Grips','assets/images/boss-grapplebot.png'),
     boss('mecharat','机械鼠','MechaRat','airship','天空之城西北空域','Northwest of Sky City','开放前往沃夫派因的航线','Access to Wolfpine Island','A Sky Tail','assets/images/boss-mecharat.jpg'),
     boss('forgotten-grave','被遗忘的墓','Forgotten Grave','ground','雨原','Rainy Plains','开放一枚岛屿核心','Access to an islet core','Grave Danger'),
-    boss('runaway-plant','失控植物','Runaway Plant','ground','空中花园','Hanging Gardens','位移箭','Shift Arrows','Tulip Tussle','assets/images/boss-runaway-plant.jpg'),
+    boss('runaway-plant','逃跑植物','Runaway Plant','ground','空中花园','Hanging Gardens','位移箭','Shift Arrows','Tulip Tussle','assets/images/boss-runaway-plant.jpg'),
     boss('swamp-frog','沼泽蛙','Swamp Frog','ground','雨原','Rainy Plains','云朵箭','Cloud Arrows','A Swampy Situation'),
     boss('stone-witch','石女巫','Stone Witch','ground','被遗忘的腐地','Forgotten Rots','一个飞艇螺旋桨部件','An airship propeller','Stone Cold Witch'),
     boss('defender-unit','守护者单位','Defender Unit','airship','天空之城东南空域','Southeast of Sky City','开放前往辛德岛的航线','Access to Cinder Island','Exterminator'),
