@@ -32,10 +32,19 @@
         ['08 · SECRETS','hidden-walls.html','隐藏墙与密道','Hidden Walls','可破坏墙面、暗道与隐藏房间。','Breakable walls and secret rooms.'],
         ['09 · LETTERS','letters.html','神秘信件','Mysterious Letters','连续线索、地点与最终奖励。','Clues, locations and final reward.'],
         ['10 · TERMS','glossary.html','中英术语','Glossary','岛屿、能力与首领名称。','Islands, abilities and bosses.'],
-        ['11 · INFO','game-info.html','游戏资料','Game Info','版本、平台与基础信息。','Platforms and game facts.']
+        ['11 · INFO','game-info.html','游戏资料','Game Info','版本、平台与基础信息。','Platforms and game facts.'],
+        ['12 · ABOUT','about.html','关于本站','About','内容说明、资料勘误与联系方式。','Editorial notes, corrections and contact.']
       ];
       categoryGrid.innerHTML=categories.map(x=>`<a class="category" href="${x[1]}"><b>${x[0]}</b><h3><span class="zh">${x[2]}</span><span class="en">${x[3]}</span></h3><p><span class="zh">${x[4]}</span><span class="en">${x[5]}</span></p></a>`).join('');
     }
+  }
+  const footer=document.querySelector("footer.site .wrap");
+  if(footer&&!footer.querySelector(".about-footer-link")){
+    const link=document.createElement("a");
+    link.className="about-footer-link";
+    link.href="about.html";
+    link.innerHTML=`<span class="zh">关于本站与联系</span><span class="en">About & Contact</span>`;
+    footer.appendChild(link);
   }
   const groups={
     'index.html':['index.html'],
