@@ -43,7 +43,7 @@
     const link=document.createElement("a");
     link.className="about-footer-link";
     link.href="about.html";
-    link.innerHTML=`<span class="zh">关于本站与联系</span><span class="en">About & Contact</span>`;
+    link.innerHTML=`<span class="nav-zh">关于本站与联系</span><span class="nav-en">About & Contact</span>`;
     footer.appendChild(link);
   }
   const groups={
