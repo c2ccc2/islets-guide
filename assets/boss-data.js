@@ -18,9 +18,9 @@
     boss('runaway-plant','逃跑植物','Runaway Plant','ground','空中花园','Hanging Gardens','位移箭','Shift Arrows','Tulip Tussle','assets/images/boss-runaway-plant.jpg'),
     boss('swamp-frog','沼泽蛙','Swamp Frog','ground','雨原','Rainy Plains','云朵箭','Cloud Arrows','A Swampy Situation'),
     boss('stone-witch','石女巫','Stone Witch','ground','被遗忘的腐地','Forgotten Rots','一个飞艇螺旋桨部件','An airship propeller','Stone Cold Witch'),
-    boss('defender-unit','守护者单位','Defender Unit','airship','天空之城东南空域','Southeast of Sky City','开放前往辛德岛的航线','Access to Cinder Island','Exterminator'),
-    boss('rogue-bot','流氓机器人','Rogue Bot','ground','深坑','The Pits','蓄力攻击','Charge Attack','Robot Rampage'),
-    boss('bone-golem','骨之魔像','BoneGolem','ground','骨之魔像领域','BoneGolem’s Domain','破坏一道终局封印','Destroys one endgame seal','Boney Battle'),
+    boss('defender-unit','防御单元','Defender Unit','airship','天空之城东南空域','Southeast of Sky City','开放前往辛德岛的航线','Access to Cinder Island','Exterminator'),
+    boss('rogue-bot','失控机器人','Rogue Bot','ground','深坑','The Pits','蓄力攻击','Charge Attack','Robot Rampage'),
+    boss('bone-golem','骨魔像','BoneGolem','ground','骨魔像领域','BoneGolem’s Domain','破坏一道终局封印','Destroys one endgame seal','Boney Battle'),
     boss('filthpest','污秽虫','FilthPest','ground','污秽虫领域','FilthPest’s Domain','破坏一道终局封印','Destroys one endgame seal','Burning Bridges'),
     boss('gutghoul','内脏食尸鬼','GutGhoul','final','终局区域；完成两道封印后进入','Final area, after clearing both seals','完成主线并获得最终 Boss 成就','Main-story completion and final-boss achievement','Behind the Mask','', ['这是多阶段终局战，先用前几次尝试确认每个阶段的安全位置。','保留箭矢与生命资源给后半段，不要为了追击进入画面边缘。','连续失败时可调整无障碍选项；这不会影响理解 Boss 的攻击节奏。'],['This is a multi-stage finale; use early attempts to learn each phase’s safe positions.','Save arrows and health resources for later phases, and avoid chasing toward the edge.','If needed, adjust accessibility options while learning the attack rhythm.'])
   ];
