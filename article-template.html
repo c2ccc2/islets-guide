@@ -5,7 +5,7 @@
   - 保持 article 上的 data-key 与 data-next/data-prev 属性，方便内链工具批量管理。
   - 双语段落用 .lang-block 包裹，内部 .zh 放中文，.en 放英文。
   - .spoiler-badge 可用于标注“流程攻略 / Boss / 收集”等内容类型。
-  - 删除/替换 .ad-slot 占位即可换成真实 AdSense 代码。
+  - .ad-slot 手动广告占位目前已注释；停用自动广告后可按需恢复并替换为真实广告单元。
 -->
 <html lang="zh-CN">
 <head><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3535873087932681" crossorigin="anonymous"></script><!-- Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5NS3D6GH');</script><!-- End Google Tag Manager -->
@@ -98,7 +98,9 @@
         </div>
       </div>
 
+      <!-- 手动广告预留位：启用 AdSense 自动广告期间暂不渲染。
       <aside class="ad-slot" aria-label="广告预留位"><strong>广告位 · 文章内信息流</strong><span>GOOGLE ADSENSE IN-FEED</span></aside>
+      -->
 
       <p class="source">
         <span class="lang-block"><span class="zh">资料校验：</span><span class="en">References checked: </span></span>
