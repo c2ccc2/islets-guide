@@ -33,11 +33,21 @@
         ['09 · LETTERS','letters.html','神秘信件','Mysterious Letters','连续线索、地点与最终奖励。','Clues, locations and final reward.'],
         ['10 · TERMS','glossary.html','中英术语','Glossary','岛屿、能力与首领名称。','Islands, abilities and bosses.'],
         ['11 · INFO','game-info.html','游戏资料','Game Info','版本、平台与基础信息。','Platforms and game facts.'],
-        ['12 · ABOUT','about.html','关于本站','About','内容说明、资料勘误与联系方式。','Editorial notes, corrections and contact.']
+        ['12 · ACHIEVEMENTS','achievements.html','成就与奖杯','Achievements','Steam 与 PS5 对照及完成进度。','Steam and PS5 checklist with progress.'],
+        ['13 · ABOUT','about.html','关于本站','About','内容说明、资料勘误与联系方式。','Editorial notes, corrections and contact.']
       ];
       categoryGrid.innerHTML=categories.map(x=>`<a class="category" href="${x[1]}"><b>${x[0]}</b><h3><span class="zh">${x[2]}</span><span class="en">${x[3]}</span></h3><p><span class="zh">${x[4]}</span><span class="en">${x[5]}</span></p></a>`).join('');
     }
   }
+  document.querySelectorAll('.home-links,.nav-links').forEach(nav=>{
+    if(nav.querySelector('a[href="achievements.html"]'))return;
+    const anchor=nav.querySelector('a[href="upgrade-list.html"]');
+    if(!anchor)return;
+    const link=document.createElement('a');
+    link.href='achievements.html';
+    link.innerHTML='<span class="nav-zh">成就</span><span class="nav-en">Achievements</span>';
+    anchor.insertAdjacentElement('afterend',link);
+  });
   const footer=document.querySelector("footer.site .wrap");
   if(footer&&!footer.querySelector(".about-footer-link")){
     const link=document.createElement("a");
@@ -53,6 +63,7 @@
     'boss-list.html':['boss-list.html','boss-detail.html'],
     'abilities.html':['abilities.html'],
     'upgrade-list.html':['upgrade-list.html','upgrade-detail.html','upgrades.html'],
+    'achievements.html':['achievements.html'],
     'beginner.html':['beginner.html','controls.html','combat-basics.html','faq.html','accessibility.html','stuck-and-backtracking.html']
   };
   const target=Object.keys(groups).find(key=>groups[key].includes(file));
